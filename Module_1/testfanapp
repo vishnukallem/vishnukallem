@@ -1,0 +1,11 @@
+public class TestFanApp {
+    public static void main(String[] args) {
+        // Create fan objects using both constructors
+        Fan defaultFan = new Fan();
+        Fan argumentFan = new Fan(Fan.MEDIUM, true, 8.0, "blue");
+
+        // Display fan objects using toString method
+        System.out.println("Default Fan: " + defaultFan);
+        System.out.println("Argument Fan: " + argumentFan);
+    }
+}
